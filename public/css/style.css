@@ -246,8 +246,8 @@ ul.navbar-bawah li a:hover {
 /* ? Gallery */
 .gallery .bg-gallery {
   position: absolute;
-  margin-top: 13rem;
-  height: 90vh;
+  margin-top: 3rem;
+  height: 92vh;
   width: 100%;
   z-index: 0;
 }
@@ -695,7 +695,7 @@ ul.navbar-bawah li a:hover {
     margin-left: -2rem;
   }
   .gallery .bg-gallery {
-    margin-top: 7rem;
+    height: 86vh;
   }
   .kartu-ucapan .daftar-kartu .card .kepala-body img {
     width: 12%;
@@ -752,8 +752,8 @@ ul.navbar-bawah li a:hover {
     max-width: 20%;
   }
   .gallery .bg-gallery {
-    margin-top: 12rem;
-    height: 30vh;
+    margin-top: 3rem;
+    height: 39vh;
   }
   .acara {
     padding-top: 10rem;
@@ -871,8 +871,8 @@ ul.navbar-bawah li a:hover {
       "g6 g6";
   }
   .gallery .bg-gallery {
-    margin-top: 20rem;
-    height: 55vh;
+    margin-top: 3rem;
+    height: 87vh;
   }
   .acara {
     padding-top: 5rem;
