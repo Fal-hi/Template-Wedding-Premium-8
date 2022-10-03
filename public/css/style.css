@@ -96,6 +96,7 @@ ul.navbar-bawah li a:hover {
 
 .header .bg-mawar {
   height: 50vh;
+  z-index: 1;
 }
 
 .header .foto-mempelai {
