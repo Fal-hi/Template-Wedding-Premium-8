@@ -9,7 +9,6 @@
       href="public/gambar/hiasan/logo.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="public/css/style.css" />
     <link rel="stylesheet" href="public/bootstrap/bootstrap.min.css" />
     <link
       rel="stylesheet"
@@ -25,28 +24,159 @@
     <script src="public/bootstrap/bootstrap.bundle.min.js" defer></script>
     <title>Template Wedding 8</title>
   </head>
-  <style>
-    .laptop .isi {
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Quintessential", cursive;
+    }
+
+    :root {
+      --warna1: #630000;
+      --warna2: #180a0a;
+      --warna3: #eeebdd;
+      --warna4: #d8b6a4;
+      --lengkung: 1rem;
+      --lengkungO: 999px;
+    }
+
+    body {
+      height: 100%;
+    }
+
+    .header {
+      background-color: var(--warna3);
+    }
+
+    .header .bg-mawar {
+      height: 50vh;
+    }
+
+    .header .laptop {
+      height: 50vh;
+    }
+
+    .header .laptop div {
+      color: var(--warna3);
       text-align: center;
-      position: absolute;
-      z-index: 2;
+      position: relative;
+      bottom: 40vh;
+      z-index: 3;
     }
-    .laptop img {
-      max-width: 12%;
-      position: absolute;
+
+    .header .laptop div h1 {
+      font-family: "Allura", cursive;
+      font-size: 4rem;
     }
-    .laptop img.bunga31 {
+
+    .header .laptop div p {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    .header .laptop div p.p1 {
+      color: var(--warna3);
+      margin-top: 1rem;
+    }
+
+    .header .laptop div p.p2 {
+      color: var(--warna1);
+      margin-top: 4rem;
+    }
+
+    .header .laptop div a {
+      font-size: 3.5rem;
+      color: var(--warna1);
+    }
+
+    .header .laptop .bunga img {
+      max-width: 10%;
+      height: auto;
+      position: fixed;
+      bottom: 0;
+    }
+
+    .header .laptop .bunga img:nth-child(1) {
       left: 0;
-      bottom: 0;
     }
-    .laptop img.bunga32 {
+
+    .header .laptop .bunga img:nth-child(2) {
       right: 0;
-      bottom: 0;
       transform: rotateY(180deg);
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .header .laptop div {
+        bottom: 33vh;
+      }
+      .header .laptop div p {
+        margin-top: -6rem;
+      }
+      .header .laptop div p.p2 {
+        margin-top: 10rem;
+      }
+      .header .laptop .bunga img {
+        max-width: 25%;
+      }
+    }
+    @media (max-width: 575.98px) {
+      .header {
+        height: 100%;
+      }
+      .header .foto-mempelai {
+        position: absolute;
+        top: 2rem;
+      }
+      .header .foto-mempelai img.bunga1 {
+        max-width: 25%;
+        margin-top: 14rem;
+        margin-right: -2rem;
+      }
+      .header .foto-mempelai img.foto {
+        max-width: 60%;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+      }
+      .header .foto-mempelai img.bunga2 {
+        max-width: 25%;
+        margin-top: 14rem;
+        margin-left: -2rem;
+      }
+      /* ! For Mobile */
+      .header .nama-mempelai .mobile {
+        text-align: center;
+        font-weight: normal;
+      }
+      .header .nama-mempelai .mobile {
+        padding-top: 2rem;
+      }
+      .header .nama-mempelai .mobile h1 {
+        color: var(--warna1);
+        font-size: 2.5rem;
+      }
+      .header .nama-mempelai .mobile p {
+        color: var(--warna2);
+        padding: 1rem 0;
+        font-size: 1rem;
+        margin-bottom: 0;
+      }
+      .header .nama-mempelai .mobile p {
+        width: 90%;
+        margin: auto;
+      }
+      .header .nama-mempelai .mobile a.btn {
+        background-color: var(--warna1);
+        color: var(--warna3);
+        padding: 0.5rem 1.5rem;
+        margin-top: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 50px;
+      }
     }
   </style>
   <body>
-    <section class="header" id="header">
+    <div class="header" id="header">
       <div
         class="bg-mawar"
         style="
@@ -55,41 +185,53 @@
           background-repeat: no-repeat;
         "
       ></div>
-      <!-- Laptop -->
-      <div class="laptop d-none d-md-block d-lg-block d-xl-block d-xxl-block">
-        <div class="isi">
-          <h1>Faaziq & Sadiqah</h1>
-          <h5>Kepada Bapak/Ibu/Saudara/I</h5>
-          <h1>Zony & Partner</h1>
-          <h5>
-            Tanpa mengurangi rasa hormat, kami mengundang Anda untuk hadir ke
-            acara pernikahan kami.
-          </h5>
-          <a href="isi.html">
-            <i class="bi bi-arrow-down-circle-fill"></i>
-          </a>
+      <div class="nama-mempelai">
+        <!-- Laptop -->
+        <div class="laptop d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+          <div>
+            <h1>Faaziq & Sadiqah</h1>
+            <p class="p1">Kepada Bpk/Ibu/Saudara/I</p>
+            <h1>Zony & Partner</h1>
+            <p class="p2">
+              Tanpa mengurangi rasa hormat, kami mengundang Anda untuk hadir ke
+              acara pernikahan kami
+            </p>
+            <a href="isi.html" class="bi bi-arrow-down-circle-fill"></a>
+          </div>
+          <div class="bunga">
+            <img src="public/gambar/hiasan/bunga3.png" alt="Bunga 3" />
+            <img src="public/gambar/hiasan/bunga3.png" alt="Bunga 3" />
+          </div>
         </div>
-        <img
-          src="public/gambar/hiasan/bunga3.png"
-          class="bunga31"
-          alt="Bunga Hiasan"
-        />
-        <img
-          src="public/gambar/hiasan/bunga3.png"
-          class="bunga32"
-          alt="Bunga Hiasan"
-        />
+        <!-- Phone -->
+        <div class="mobile d-md-none d-lg-none d-xl-none d-xxl-none">
+          <div class="foto-mempelai">
+            <img
+              src="public/gambar/hiasan/bunga1.png"
+              class="bunga1"
+              alt="Bunga 1"
+            />
+            <img
+              src="public/gambar/foto/mempelai.jpg"
+              class="foto"
+              alt="Foto Mempelai"
+            />
+            <img
+              src="public/gambar/hiasan/bunga2.png"
+              class="bunga2"
+              alt="Bunga 2"
+            />
+          </div>
+          <h1>Faaziq & Sadiqah</h1>
+          <p>Kepada Bpk/Ibu/Saudara/I</p>
+          <h1>Zony & Partner</h1>
+          <p class="p2">
+            Tanpa mengurangi rasa hormat, kami mengundang Anda untuk hadir ke
+            acara pernikahan kami
+          </p>
+          <a href="isi.html" class="btn">Buka Undangan</a>
+        </div>
       </div>
-      <!-- Phone -->
-      <div class="mobile d-md-none d-lg-none d-xl-none d-xxl-none">
-        <h1>Faaziq Rizky</h1>
-        <h1>&</h1>
-        <h1>Sadiqah Annisa</h1>
-        <p>
-          Atas karunia Allah SWT izinkan Kami mengundang sekaligus mengharapkan
-          doa restu dari bapak/ibu dalam acara pernikahan putra & putri kami.
-        </p>
-      </div>
-    </section>
+    </div>
   </body>
 </html>

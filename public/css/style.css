@@ -245,13 +245,13 @@ ul.navbar-bawah li a:hover {
 }
 
 /* ? Gallery */
-.gallery .bg-gallery {
+/* .gallery .bg-gallery {
   position: absolute;
   margin-top: 3rem;
   height: 92vh;
   width: 100%;
   z-index: 0;
-}
+} */
 
 .gallery h3.tg {
   text-align: center;
@@ -695,9 +695,9 @@ ul.navbar-bawah li a:hover {
     margin-top: 5rem;
     margin-left: -2rem;
   }
-  .gallery .bg-gallery {
+  /* .gallery .bg-gallery {
     height: 86vh;
-  }
+  } */
   .kartu-ucapan .daftar-kartu .card .kepala-body img {
     width: 12%;
   }
@@ -752,10 +752,10 @@ ul.navbar-bawah li a:hover {
   .pengantin .wanita .foto-wanita img.bunga2 {
     max-width: 20%;
   }
-  .gallery .bg-gallery {
+  /* .gallery .bg-gallery {
     margin-top: 3rem;
     height: 39vh;
-  }
+  } */
   .acara {
     padding-top: 10rem;
   }
@@ -783,6 +783,9 @@ ul.navbar-bawah li a:hover {
     right: 20px;
     bottom: 100px;
   }
+  .header .nama-mempelai {
+    height: 100%;
+  }
   .header .foto-mempelai {
     top: 9rem;
   }
@@ -805,8 +808,6 @@ ul.navbar-bawah li a:hover {
   .header .nama-mempelai .mobile {
     text-align: center;
     font-weight: normal;
-  }
-  .header .nama-mempelai .mobile {
     padding-top: 8rem;
   }
   .header .nama-mempelai .mobile h1 {
@@ -817,6 +818,7 @@ ul.navbar-bawah li a:hover {
     color: var(--warna2);
     padding: 2rem;
     font-size: 0.8rem;
+    margin-bottom: 0;
   }
   .surat {
     height: 50vh;
@@ -871,10 +873,10 @@ ul.navbar-bawah li a:hover {
       "g4 g5"
       "g6 g6";
   }
-  .gallery .bg-gallery {
+  /* .gallery .bg-gallery {
     margin-top: 3rem;
     height: 87vh;
-  }
+  } */
   .acara {
     padding-top: 5rem;
   }
