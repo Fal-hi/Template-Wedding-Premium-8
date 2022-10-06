@@ -808,7 +808,7 @@ ul.navbar-bawah li a:hover {
   .header .nama-mempelai .mobile {
     text-align: center;
     font-weight: normal;
-    padding-top: 8rem;
+    padding-top: 13rem;
   }
   .header .nama-mempelai .mobile h1 {
     color: var(--warna1);
@@ -824,7 +824,7 @@ ul.navbar-bawah li a:hover {
     height: 50vh;
   }
   .surat p {
-    padding: 6rem 3rem 0 3rem;
+    padding: 3rem 3rem 0 3rem;
     font-size: 1rem;
   }
   .pengantin {
