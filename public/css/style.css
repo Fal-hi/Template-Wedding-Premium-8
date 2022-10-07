@@ -245,14 +245,6 @@ ul.navbar-bawah li a:hover {
 }
 
 /* ? Gallery */
-/* .gallery .bg-gallery {
-  position: absolute;
-  margin-top: 3rem;
-  height: 92vh;
-  width: 100%;
-  z-index: 0;
-} */
-
 .gallery h3.tg {
   text-align: center;
   color: var(--warna1);
@@ -269,9 +261,9 @@ ul.navbar-bawah li a:hover {
   padding: 1rem;
   display: grid;
   grid-template-areas:
-    "g1 g1 g2 g3"
-    "g1 g1 g6 g6"
-    "g4 g5 g6 g6";
+    "g1 g2 g3 g4"
+    "g1 g5 g6 g6"
+    "g7 g8 g6 g6";
 }
 
 .gallery .isi-gallery .card {
@@ -752,10 +744,6 @@ ul.navbar-bawah li a:hover {
   .pengantin .wanita .foto-wanita img.bunga2 {
     max-width: 20%;
   }
-  /* .gallery .bg-gallery {
-    margin-top: 3rem;
-    height: 39vh;
-  } */
   .acara {
     padding-top: 10rem;
   }
@@ -866,11 +854,10 @@ ul.navbar-bawah li a:hover {
   }
   .gallery .isi-gallery {
     grid-template-areas:
-      "g1 g1"
-      "g2 g3"
-      "g2 g3"
+      "g1 g2"
+      "g1 g3"
       "g4 g5"
-      "g4 g5"
+      "g7 g8"
       "g6 g6";
   }
   /* .gallery .bg-gallery {
